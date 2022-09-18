@@ -29,7 +29,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: yellow;
+    background-color: #ffb703;
     padding: 10px;
 }
 
@@ -56,8 +56,8 @@ li:hover {
 
 #home, #menu, #contact {
     width: 80%;
-    height: 400px;
-    background-color: white;
+    height: 450px;
+    background-color: #e9edc9;
 }
 
 .grid-container {
@@ -92,4 +92,9 @@ li:hover {
     width: 100%;
     position: absolute;
     bottom: 0%;
+}
+
+p, h2 {
+    margin-top: 15px;
+    margin-left: 15px;
 }
