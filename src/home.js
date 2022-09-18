@@ -1,23 +1,4 @@
 export function homeDisplay() {
-    const title = document.createElement("h1");
-    title.textContent = "Restaurant";
-    document.getElementById("content").appendChild(title);
-
-    const nav = document.createElement("nav");
-    document.getElementById("content").appendChild(nav);
-
-    const unList = document.createElement("ul");
-    nav.appendChild(unList);
-    const homeLink = document.createElement("li");
-    homeLink.textContent = "Home";
-    const menuLink = document.createElement("li");
-    menuLink.textContent = "Menu";
-    const contactLink = document.createElement("li");
-    contactLink.textContent = "Contact";
-    unList.appendChild(homeLink);
-    unList.appendChild(menuLink);
-    unList.appendChild(contactLink);
-
     const homePage = document.createElement("div");
     homePage.setAttribute("id","home");
     content.appendChild(homePage);
