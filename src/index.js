@@ -55,3 +55,17 @@ contactLink.addEventListener("click", () => {
     }
     document.getElementById("contact").classList.remove("hide");
 });
+
+const credit = document.createElement("div");
+credit.classList.add("credit");
+document.getElementById("content").appendChild(credit);
+
+const backgroundCredit = document.createElement("a");
+const linkText = document.createTextNode("Background image by Brooke lark");
+backgroundCredit.appendChild(linkText);
+backgroundCredit.href = "https://unsplash.com/photos/wMzx2nBdeng";
+credit.appendChild(backgroundCredit);
+
+const foodCredit = document.createElement("div");
+foodCredit.textContent = "Click on the food images to see their photographers!";
+credit.appendChild(foodCredit);
